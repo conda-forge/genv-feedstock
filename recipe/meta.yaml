@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: genv
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/run-ai/genv/archive/v{{ version }}.tar.gz
-  sha256: e34ba9e4b300ed2d691dfea2802b0a6215b116e43e534a7d1ce2ef2341a6911f
+  sha256: 0413c1bb63be4f2f02992a4d1d9c274bb35680a5d63593fe1d9900aca5947db5
 
 build:
   skip: true  # [win]
