@@ -1,2 +1,1 @@
-export GENV_ROOT=$CONDA_PREFIX/opt/genv
-eval "$(genv init -)"
+eval "$(genv shell --init)"

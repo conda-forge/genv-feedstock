@@ -1,8 +1,4 @@
-mkdir -p "$PREFIX/opt/genv"
-cp -a "$SRC_DIR/." "$PREFIX/opt/genv"
-
-mkdir -p "$PREFIX/bin"
-ln -s "$PREFIX/opt/genv/bin/genv" "$PREFIX/bin/genv"
+$PYTHON -m pip install . -vv
 
 for CHANGE in "activate" "deactivate"
 do
