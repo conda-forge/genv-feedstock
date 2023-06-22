@@ -9,8 +9,8 @@ source:
   sha256: 16f1be93c91e2b0216128e192eeb7e5a8001b4d53367c10fd0c0bac86aa11aaa
 
 build:
-  skip: true  # [win]
-  number: 0
+  noarch: python
+  number: 1
 
 requirements:
   host:
