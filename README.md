@@ -7,9 +7,9 @@ Home: https://github.com/run-ai/genv
 
 Package license: AGPL-3.0-or-later
 
-Summary: GPU Environment Management
+Summary: GPU environment and cluster management
 
-genv lets you easily control, configure and monitor the GPU resources that you are using.
+Genv lets you easily control, configure, monitor and enforce the GPU resources that you are using.
 It is intendend to improve the life of individual GPU users as well as teams that share multi-GPU machines.
 This project was highly inspired by pyenv and other version, package and environment management software like Conda, nvm, rbenv.
 
@@ -175,7 +175,4 @@ Feedstock Maintainers
 =====================
 
 * [@razrotenberg](https://github.com/razrotenberg/)
-
-
-<!-- dummy commit to enable rerendering -->
 
