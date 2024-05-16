@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: genv
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/genv/genv-{{ version }}.tar.gz
-  sha256: b618b7617191a958d59b5f7045d98ff89ac95ae8f30340b04e50bdb036bad5ee
+  sha256: 8a336884b1aea3b62d17d0f0d39a9f46b91e516e301039d79172eb2275b4d494
 
 build:
   noarch: python
